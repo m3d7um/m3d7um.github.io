@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wawe</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -57,13 +57,19 @@
     <div class="text3">Avenida grandes playas 79, 
         Corralejo la Oliva Fuerteventura, 
         Spain. 35660</div>
-    <div class="line1">Имя</div>
-    <div class="line2">Телефон</div>
+    <form id="example" class="forma">
+        <p class="line1"><label for="name">Имя</label>
+        <input class="peper1" type="text" id="name" placeholder="Иван" required pattern="[А-Яа-яЁё]{3,15}"></p>
+        <p class="line2"><label for="name2">Телефон</label>
+        <input class="peper2" type="number" id="name1"  placeholder="8 XXX (XXX) XX-XX" required pattern="[0-9]{10}"></p>
+    </form>
     <article class="pop3">
         <div class="line3">Оставьте сообщение, и мы свяжемся с Вами в ближайшее время</div>
     </article>
     <section class="pop4">
-        <div class="otpr">ОТПРАВИТЬ</div>
+        <form class="otpr">
+            <button form="example" form="example1" class="knopka" type="submit" value="ОТПРАВИТЬ"> ОТПРАВИТЬ</button>
+        </form>
     </section>
     <footer class="footer_end">
         <ul class="footer_end1">
