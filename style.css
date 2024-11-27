@@ -14,8 +14,6 @@
     width: 60px;
 height: 63px;
 margin-top: 10px;
-gap: 0px;
-opacity: 0px;
 margin-right: 185px;
 
 }
@@ -54,8 +52,6 @@ text-align: left;
     width: 450px;
     margin-top: 0px;
 height: 28px;
-gap: 0px;
-opacity: 0px;
 font-family: Roboto Condensed;
 font-size: 24px;
 font-weight: 400px;
@@ -66,18 +62,14 @@ line-height: 29px;
 height: 69px;
 margin-top: 240px;
 margin-left: 950px;
-gap: 0px;
-opacity: 0px;
 
 }
 body{
     background-image: url("/img/Group4.png");
     background-repeat: no-repeat;
     width: 1920px;
-height: 1080px;
-gap: 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+    height: 1080px;
+    border: 1px 0px 0px 0px;
 
 }
 .sec_main {
@@ -87,8 +79,6 @@ opacity: 0px;
     height: 56px;
     margin-top: 280px;
     margin-left: 515px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Raleway;
     font-size: 48px;
     font-weight: 600;
@@ -104,8 +94,6 @@ opacity: 0px;
     height: 85px;
     margin-left: -20px;
     margin-top: 285px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Raleway;
     font-size: 72px;
     font-weight: 600;
@@ -126,8 +114,6 @@ opacity: 0px;
     height: 87px;
     margin-top: 50px;
     margin-left: 300px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
     font-size: 17px;
     font-weight: 300;
@@ -142,8 +128,6 @@ opacity: 0px;
     height: 87px;
     margin-top: 30px;
     margin-left: 300px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
     font-size: 17px;
     font-weight: 300;
@@ -158,8 +142,6 @@ opacity: 0px;
     height: 87px;
     margin-top: 30px;
     margin-left: 300px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
     font-size: 17px;
     font-weight: 300;
@@ -173,8 +155,6 @@ opacity: 0px;
     height: 71px;
     margin-top: 30px;
     margin-left: 300px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
     font-size: 17px;
     font-weight: 300;
@@ -189,8 +169,6 @@ opacity: 0px;
     height: 73px;
     margin-top: 50px;
     margin-left: 120px;
-    gap: 0px;
-    opacity: 0px;
     list-style-type: none;
     font-family: Roboto Condensed;
     font-size: 17px;
@@ -205,8 +183,6 @@ opacity: 0px;
     height: 38px;
     margin-top: 48px;
     margin-left: 120px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
     font-size: 17px;
     font-weight: 300;
@@ -221,8 +197,6 @@ opacity: 0px;
     height: 87px;
     margin-top: 79px;
     margin-left: 120px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
     font-size: 17px;
     font-weight: 300;
@@ -236,8 +210,6 @@ opacity: 0px;
     height: 71px;
     margin-top: 30px;
     margin-left: 119px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
     font-size: 17px;
     font-weight: 300;
@@ -255,8 +227,6 @@ opacity: 0px;
     height: 56px;
     margin-top: 100px;
     margin-left: 750px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Raleway;
     font-size: 48px;
     font-weight: 600;
@@ -291,8 +261,6 @@ opacity: 0px;
     margin-left: 960px;
     width: 600px;
     height: 460px;
-    gap: 0px;
-    opacity: 0px;
 }
 .text1 {
     margin-top: -400px;
@@ -345,8 +313,7 @@ opacity: 0px;
     color: #242121;
 }
 .line1 {
-    gap: 0px;
-    opacity: 0px;
+    border: 0px solid;
     font-family: Roboto Condensed;
     font-size: 18px;
     font-weight: 400;
@@ -361,15 +328,13 @@ opacity: 0px;
     height: 25px;
     margin-top: -450px;
     margin-left: 360px;
+    
 }
 .line2 {
     width: 569px;
     height: 38px;
-    margin-top: 30px;
     border-bottom: 2px solid #DADADA;
-    padding-bottom: 5px;
-    gap: 0px;
-    opacity: 0px;
+    padding-bottom: 1px;
     font-family: Roboto Condensed;
     font-size: 18px;
     font-weight: 400;
@@ -411,9 +376,7 @@ opacity: 0px;
     height: 70px;
     left: 360px;
     top: 1729px;
-
     background: #FFFFFF;
-    border: 1px solid #C4C4C4;
     margin-top: 960px;
     margin-left: 8px;
 
@@ -437,8 +400,6 @@ opacity: 0px;
     height: 23px;
     margin-top: 300px;
     margin-left: 782px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Condensed;
 font-size: 24px;
 font-weight: 400;
@@ -451,4 +412,56 @@ padding-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
     color:#00B2A0;
+}
+.peper1 {
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-top: -20px;
+    padding: 4px;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+}
+.peper2 {
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-top: -20px;
+    padding: 4px;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+}
+.knopka {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: white;
+    color: #242121;
+    padding: 27px 130px;
+    font-size: 16px;
+    margin-top: -28px;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6000000238418579px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 1px solid #C4C4C4;
+    border-radius: 0%;
+}
+.knopka:hover {
+    background: #C4C4C4;
+}
+.knopka:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #C4C4C4;
+}
+input:invalid {
+    border: 2px solid red; 
+    background-color: #ffe6e6;
+}
+input:valid {
+    border: 2px solid green;
 }
